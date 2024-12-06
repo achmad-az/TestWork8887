@@ -1,3 +1,14 @@
+# TestWork8887
+
+In this repository i put the whole wp-content directory & database sql file to make easier to install this theme.
+
+1. just install fresh wordpress in your local
+2. pull this repo
+3. replace your wp-content directory
+4. import the database
+5. Change the database URL to your localhost URL and you can follow these [instructions](https://docs.google.com/document/d/1IgUgUFAtRvFNE0jOqvEMfmVhcStI29ZbPp1nvF46cPE/edit?usp=sharing)
+6. by this method you will easier and faster to install this theme and plugin
+
 # Cities Weather Widget & Custom Post Type
 
 This project is a WordPress solution that includes a custom post type for “Cities,” a custom taxonomy for “Countries,” and a widget to display the weather of selected cities. It also includes a custom page template for displaying a searchable table of countries, cities, and their temperatures.
@@ -30,7 +41,7 @@ This project is a WordPress solution that includes a custom post type for “Cit
      - Activate the child theme in the WordPress admin under Appearance > Themes.
 3. **API Key Setup**
      - Obtain an API key from OpenWeatherMap.
-     - Replace `YOUR_API_KEY` in the code (`functions.php` and AJAX logic) with your OpenWeatherMap API key.
+     - Replace `YOUR_API_KEY` in the Setting > OpenWeatherMap Update with your OpenWeatherMap API key.
 4. **Create Cities and Countries**
      - Add new cities under Cities (custom post type).
      - Assign each city to a country (custom taxonomy).
